@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.output-text {
+    font-size: 5rem;
+    margin: 3rem;
+}
+
+.button-container {
+    height: 40vw;
+    .buttons {
+        height: 40vw;
+        width: 45vw;
+        p {
+            padding-top: 20vw;
+            padding-bottom: 20vw;
+            font-size: 5vw;
+        }    
+}
+}
